@@ -1,0 +1,105 @@
+.kar-tree-view {
+    padding: 1rem;
+    height: calc(100% - 40px);
+    overflow: auto;
+    li {
+        position: relative;
+        /* margin-left: -15px; */
+        list-style: none;
+        &.file {
+            padding: 2px 1rem;
+            cursor: pointer;
+            span {
+                background: url(../../assets/icons/file2.png) 0 0 no-repeat;
+                padding-left: 21px;
+                text-decoration: none;
+                display: block;
+                padding: 0 1.7rem;
+                font-size: 0.75rem;
+            }
+            &:hover {
+                background: rgba(3, 169, 244, 0.48);
+                color: #000;
+            }
+        }
+        &.kar-json-file {
+            padding: 2px 1rem;
+            cursor: pointer;
+            span {
+                background: url(../../assets/icons/json-file.png) 0 0 no-repeat;
+                padding-left: 21px;
+                text-decoration: none;
+                display: block;
+                padding: 0 1.7rem;
+                font-size: 0.75rem;
+            }
+            &:hover {
+                background: rgba(3, 169, 244, 0.48);
+                color: #000;
+            }
+        }
+        &.kar-tree-file {
+            padding: 2px 1rem;
+            cursor: pointer;
+            span {
+                background: url(../../assets/icons/tree-file.png) 0 0 no-repeat;
+                padding-left: 21px;
+                text-decoration: none;
+                display: block;
+                padding: 0 1.7rem;
+                font-size: 0.75rem;
+            }
+            &:hover {
+                background: rgba(3, 169, 244, 0.48);
+                color: #000;
+            }
+        }
+        input {
+            position: absolute;
+            left: 0;
+            margin-left: 0;
+            opacity: 0;
+            z-index: 2;
+            cursor: pointer;
+            height: 1em;
+            width: 1em;
+            top: 0;
+
+            &:checked + ol {
+                background: url(../../assets/icons/caret-down.png) 40px 5px no-repeat;
+                margin: -2em 0 0 -44px;
+                padding: 1.563em 0 0 80px;
+                height: auto;
+            }
+            &:checked + ol > li {
+                display: block;
+                margin: 0 0 0.125em;
+            }
+            &:checked + ol > li:last-child {
+                margin: 0 0 0.063em;
+            }
+            &+ol {
+                background: url(../../assets/icons/caret-right.png) 40px 0 no-repeat;
+                margin: -1.7em 0 0.5em -44px;
+                height: 1.2em;
+            }
+            &+ ol > li {
+                display: none;
+                margin-left: -14px !important;
+                padding-left: 1px;
+            }
+        }
+        label {
+            background: url(../../assets/icons/folder.png) 15px 1px no-repeat;
+            cursor: pointer;
+            display: block;
+            padding-left: 37px;
+            font-weight: normal;
+        }
+    }
+
+    ol.tree {
+        padding: 0 0 0 30px;
+        width: 300px;
+    }
+}

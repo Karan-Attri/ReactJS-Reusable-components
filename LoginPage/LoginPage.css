@@ -1,0 +1,134 @@
+.hcl-login-sprite-user-login, .hcl-login-sprite-form-submit-btn
+{ display: inline-block; background: url('../../assets/icons/login-sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.hcl-login-sprite-user-login { background-position: -2px -0px; width: 108px; height: 97px; }
+.hcl-login-sprite-form-submit-btn { background-position: -2px -99px; width: 97px; height: 97px; }
+
+.hcl-login-page{
+position: relative;
+}
+.hcl-login-top{
+    height: calc(100vh - 13.69rem);
+    background-color: #009bef;}
+.hcl-login-bottom{
+    height: 13.69rem;
+    
+}
+.hcl-login-page-top-container-context{
+    position: absolute;
+            font-size: 2.688rem;
+            color: #ffffff;
+            top: 10vh;
+            left: 50%;
+            -ms-transform: translateX(-50%) translateY(0%);
+            -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+}
+.hcl-login-form-icon{
+    position: absolute;
+            top: -10%;
+            left: 50%;
+            -ms-transform: translateX(-50%) translateY(0%);
+            -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+}
+.hcl-login-form-container{
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 1rem;
+        height: 455px;
+        width: 435px;
+        background: #ffffff;
+        padding: 5.063rem 5.188rem;
+        top: 50%;
+        
+        left: 50%;
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+        -ms-transform: translateX(-50%) translateY(0%);
+        -webkit-transform: translate(-50%, 0%);
+        transform: translate(-50%, -50%);
+}
+
+.formpage-control{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    border-radius: .25rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.hcl-login-form-header-icon {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(0%);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+.hcl-login-form-submit-icon {
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(0%);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%); }
+    .hcl-login-form-submit-icon > button {        background: transparent;
+                border: 0;
+                outline: none;
+                cursor: pointer;
+            }
+    .hcl-login-form {
+        color: #949394;}
+        .hcl-login-form-password {
+            background: url(../../assets/icons/password.png) 7px 7px no-repeat;
+            padding: 0 2.5rem;
+        }
+        .hcl-login-form-view-password {
+            position: absolute;
+            right: 0;
+            top: 51%;
+            background: url(../../assets/icons/eye.png) 7px 7px no-repeat;
+            padding: 1rem;
+        }
+        .hcl-login-form-rememberme,
+        .hcl-login-form-forgot-password {
+            font-size: 0.875rem;
+        }
+        .hcl-login-form-password-container {
+            position: relative;
+        }
+        .hcl-login-form-separator {
+            margin: 1rem 4.063rem;
+        }
+        .hcl-login-form-register-context {
+            font-size: 0.875rem;
+        }
+        .hcl-login-form-invalid-user {
+            font-size: 0.875rem;
+            color: #d01437;
+            padding: 0.5rem;
+        }
+        #hcl-login-form-username,
+        #hcl-login-form-password {
+            font-size: 0.875rem;
+            color: #949394;
+            width: 100%;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+            padding: 5px;
+            margin: 10px 0 10px 0;
+        }
+        .formpage-group{
+            text-align: left;
+        }
+        label{
+            margin:0 0 5px 0;
+        }
+        /* a {
+            color: #009bef;
+            &:hover {
+                text-decoration: none;
+            }
+        } */
+    

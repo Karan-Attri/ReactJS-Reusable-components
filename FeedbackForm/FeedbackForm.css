@@ -1,0 +1,15 @@
+h1{
+    background-color: #047cc0;
+    color: white;
+}
+label{
+    color: #047cc0;
+}
+#send{
+    background-color: #40d5bb;
+}
+#main{
+    text-align: center;
+    width: 400px;
+    height: 600px;
+}
